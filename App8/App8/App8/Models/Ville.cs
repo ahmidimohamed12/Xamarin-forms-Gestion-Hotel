@@ -4,10 +4,10 @@ using System.Text;
 
 namespace App8.Models
 {
-    class Ville
+    class Ville : Pays
     {
-        public int id { get; set; }
-        public string Name { get; set; }
+        public int idvile { get; set; }
+        public string Namevile { get; set; }
     }
 
 }

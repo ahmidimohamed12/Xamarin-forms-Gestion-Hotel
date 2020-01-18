@@ -12,42 +12,104 @@ namespace App8
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Hotels : ContentPage
     {
-        List<Pays> pay1 = new List<Pays>()
+        List<Ville> pay1 = new List<Ville>()
         {
-            new Pays
-            {
-                id = 1,
-                Name = "maroc",
-                vilelist = new List<Ville>
-                {
-                    new Ville
-                    {
-                        id = 1,
-                        Name = "Nador"
-                    },
-                    new Ville
-                    {
-                        id = 2,
-                        Name = "Fes"
-                    },
-                    new Ville
-                    {
-                        id = 3,
-                        Name = "Rabat"
-                    },
-                    new Ville
-                    {
-                        id = 4,
-                        Name = "Casablanca"
-                    }
-                }
-            }
+              new Ville
+              {
+                  idpays = 1,
+                  idvile = 1,
+                  Namepays = "maroc",
+                  Namevile = "Nador",
+                  im = ImageSource.FromFile("nador.png")
+                  
+              },
+              new Ville
+              {
+                  idpays = 1,
+                  idvile = 2,
+                  Namepays = "maroc",
+                  Namevile = "fes",
+                  im = ImageSource.FromFile("")
+              },
+
+              new Ville
+              {
+                  idpays = 1,
+                  idvile = 3,
+                  Namepays = "maroc",
+                  Namevile = "Rabat",
+                  im = ImageSource.FromFile("")
+              },
+
+              new Ville
+              {
+                  idpays = 1,
+                  idvile = 4,
+                  Namepays = "maroc",
+                  Namevile = "Casablanca",
+                  im = ImageSource.FromFile("")
+              },
+
+              new Ville
+              {
+                  idpays = 1,
+                  idvile = 5,
+                  Namepays = "maroc",
+                  Namevile = "Tanger",
+                  im = ImageSource.FromFile("")
+              },
+
+              new Ville
+              {
+                  idpays = 2,
+                  idvile = 1,
+                  Namepays = "espagn",
+                  Namevile = "madrid"
+              },
+              new Ville
+              {
+                  idpays = 2,
+                  idvile = 2,
+                  Namepays = "espagn",
+                  Namevile = "barcelona"
+              },
+
+              new Ville
+              {
+                  idpays = 2,
+                  idvile = 3,
+                  Namepays = "espagn",
+                  Namevile = "malaga"
+              },
+
+              new Ville
+              {
+                  idpays = 2,
+                  idvile = 4,
+                  Namepays = "espagn",
+                  Namevile = "granada"
+              },
+
+              new Ville
+              {
+                  idpays = 2,
+                  idvile = 5,
+                  Namepays = "espagn",
+                  Namevile = "valencia"
+              },
         };
+
+
         public Hotels()
         {
             InitializeComponent();
-            ls.ItemsSource = pay1;
-        
+            src.TextChanged += (sender, e) =>
+            {
+                var vil = (from a in pay1
+                           where a.Namepays == src.Text.ToLower()
+                           select a).ToList();
+                ls.ItemsSource = vil;
+            };
         }
     }
 }

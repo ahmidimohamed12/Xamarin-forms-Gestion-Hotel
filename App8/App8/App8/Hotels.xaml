@@ -11,16 +11,34 @@
             <SearchBar
                 VerticalOptions="StartAndExpand"
                 WidthRequest="300"
-                Placeholder="ville"
-                
+                Placeholder="Pays"
+                TextColor="Black"
+                x:Name="src"
+                FontAttributes="Bold"
                 />
-            <ListView HasUnevenRows="True" x:Name="ls"> 
+            <ScrollView>
+                <ListView HasUnevenRows="True" x:Name="ls"> 
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        
+                        <ViewCell>
+                            <StackLayout HeightRequest="80" Orientation="Horizontal">
+                                    <Image
+                                        Source="{Binding im}"
+                                        HorizontalOptions="StartAndExpand"
+                                        />
+                                    <Label
+                                    Text="{Binding Namevile}"
+                                    TextColor="Black"
+                                    FontAttributes="Bold"
+                                     HorizontalOptions="Center"
+                                    />
+                                </StackLayout>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

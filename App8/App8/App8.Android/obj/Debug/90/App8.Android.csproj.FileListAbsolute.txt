@@ -598,3 +598,5 @@ C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\A
 C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8.Android\obj\Debug\90\res\drawable\nador.jpg
