@@ -1,0 +1,13 @@
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\bin\Debug\netstandard2.0\App8.deps.json
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\bin\Debug\netstandard2.0\App8.dll
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\bin\Debug\netstandard2.0\ref\App8.dll
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\bin\Debug\netstandard2.0\App8.pdb
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\obj\Debug\netstandard2.0\Hotels.xaml.g.cs
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\obj\Debug\netstandard2.0\App8.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\obj\Debug\netstandard2.0\App8.AssemblyInfo.cs
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\obj\Debug\netstandard2.0\App8.dll
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\obj\Debug\netstandard2.0\ref\App8.dll
+C:\Users\pc\source\repos\ahmidimohamed12\Xamarin-forms-Gestion-Hotel\App8\App8\App8\obj\Debug\netstandard2.0\App8.pdb

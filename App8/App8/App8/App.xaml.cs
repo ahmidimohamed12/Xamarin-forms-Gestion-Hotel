@@ -1,6 +1,8 @@
 ﻿using System;
 using Xamarin.Forms;
+using App8;
 using Xamarin.Forms.Xaml;
+using App8.Models;
 
 namespace App8
 {
@@ -10,7 +12,7 @@ namespace App8
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Hotels();
         }
 
         protected override void OnStart()

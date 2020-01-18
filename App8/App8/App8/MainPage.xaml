@@ -4,13 +4,14 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             BackgroundColor="Black"
+             xmlns:btn="clr-namespace:Flex.Controls;assembly=Flex"
+             xmlns:en="clr-namespace:IconEntry.FormsPlugin.Abstractions;assembly=IconEntry.FormsPlugin.Abstractions"
              x:Class="App8.MainPage">
 
-    <StackLayout>
+    <StackLayout Orientation="Vertical">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+     
     </StackLayout>
 
 </ContentPage>
