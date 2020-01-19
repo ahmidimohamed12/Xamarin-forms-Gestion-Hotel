@@ -21,7 +21,7 @@ namespace App8
                   Namepays = "maroc",
                   Namevile = "Nador",
                   im = ImageSource.FromFile("nador.png")
-                  
+
               },
               new Ville
               {
@@ -29,7 +29,7 @@ namespace App8
                   idvile = 2,
                   Namepays = "maroc",
                   Namevile = "fes",
-                  im = ImageSource.FromFile("")
+                  im = ImageSource.FromFile("fes.jpg")
               },
 
               new Ville
@@ -47,7 +47,7 @@ namespace App8
                   idvile = 4,
                   Namepays = "maroc",
                   Namevile = "Casablanca",
-                  im = ImageSource.FromFile("")
+                  im = ImageSource.FromFile("casa.jpg")
               },
 
               new Ville
@@ -58,44 +58,13 @@ namespace App8
                   Namevile = "Tanger",
                   im = ImageSource.FromFile("")
               },
-
-              new Ville
+                new Ville
               {
-                  idpays = 2,
-                  idvile = 1,
-                  Namepays = "espagn",
-                  Namevile = "madrid"
-              },
-              new Ville
-              {
-                  idpays = 2,
-                  idvile = 2,
-                  Namepays = "espagn",
-                  Namevile = "barcelona"
-              },
-
-              new Ville
-              {
-                  idpays = 2,
-                  idvile = 3,
-                  Namepays = "espagn",
-                  Namevile = "malaga"
-              },
-
-              new Ville
-              {
-                  idpays = 2,
-                  idvile = 4,
-                  Namepays = "espagn",
-                  Namevile = "granada"
-              },
-
-              new Ville
-              {
-                  idpays = 2,
+                  idpays = 1,
                   idvile = 5,
-                  Namepays = "espagn",
-                  Namevile = "valencia"
+                  Namepays = "maroc",
+                  Namevile = "Berkan",
+                  im = ImageSource.FromFile("")
               },
         };
 

@@ -4,20 +4,25 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundColor="White"
+             BackgroundColor="Black"
              x:Class="App8.Hotels">
     <ContentPage.Content>
-        <StackLayout>
-            <SearchBar
+        <StackLayout >
+            <StackLayout BackgroundColor="Black">
+                <SearchBar 
+                BackgroundColor="White"
                 VerticalOptions="StartAndExpand"
-                WidthRequest="300"
+                WidthRequest="200"
                 Placeholder="Pays"
                 TextColor="Black"
                 x:Name="src"
                 FontAttributes="Bold"
                 />
+            </StackLayout>
             <ScrollView>
-                <ListView HasUnevenRows="True" x:Name="ls"> 
+                <ListView WidthRequest="300"  HasUnevenRows="True" x:Name="ls"
+                          BackgroundColor="White"
+                          > 
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -25,14 +30,14 @@
                                     <Image
                                         Source="{Binding im}"
                                         HorizontalOptions="StartAndExpand"
-                                        />
-                                    <Label
-                                    Text="{Binding Namevile}"
-                                    TextColor="Black"
-                                    FontAttributes="Bold"
-                                     HorizontalOptions="Center"
                                     />
-                                </StackLayout>
+                                    <Label
+                                        Text="{Binding Namevile}"
+                                        TextColor="Black"
+                                        FontAttributes="Bold"
+                                        HorizontalOptions="CenterAndExpand"
+                                    />
+                            </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
