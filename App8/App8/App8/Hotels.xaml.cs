@@ -72,6 +72,7 @@ namespace App8
         public Hotels()
         {
             InitializeComponent();
+            ls.ItemsSource = pay1;
             src.TextChanged += (sender, e) =>
             {
                 var vil = (from a in pay1
@@ -79,6 +80,7 @@ namespace App8
                            select a).ToList();
                 ls.ItemsSource = vil;
             };
+            
         }
     }
 }

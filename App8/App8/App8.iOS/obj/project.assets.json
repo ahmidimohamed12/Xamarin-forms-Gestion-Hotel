@@ -227,6 +227,20 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.0.0.709238": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.0.0.709238"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "XLabs.Core/2.0.5782": {
         "type": "package",
         "compile": {
@@ -297,7 +311,8 @@
           "XLabs.Platform": "2.0.5782",
           "Xam.FormsPlugin.IconEntry": "1.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.908675"
+          "Xamarin.Forms": "4.3.0.908675",
+          "Xamarin.Forms.Maps": "4.0.0.709238"
         },
         "compile": {
           "bin/placeholder/App8.dll": {}
@@ -533,6 +548,20 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.0.0.709238": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.0.0.709238"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "XLabs.Core/2.0.5782": {
         "type": "package",
         "compile": {
@@ -603,7 +632,8 @@
           "XLabs.Platform": "2.0.5782",
           "Xam.FormsPlugin.IconEntry": "1.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.908675"
+          "Xamarin.Forms": "4.3.0.908675",
+          "Xamarin.Forms.Maps": "4.0.0.709238"
         },
         "compile": {
           "bin/placeholder/App8.dll": {}
@@ -839,6 +869,20 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.0.0.709238": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.0.0.709238"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "XLabs.Core/2.0.5782": {
         "type": "package",
         "compile": {
@@ -909,7 +953,8 @@
           "XLabs.Platform": "2.0.5782",
           "Xam.FormsPlugin.IconEntry": "1.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.908675"
+          "Xamarin.Forms": "4.3.0.908675",
+          "Xamarin.Forms.Maps": "4.0.0.709238"
         },
         "compile": {
           "bin/placeholder/App8.dll": {}
@@ -1145,6 +1190,20 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.0.0.709238": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.0.0.709238"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "XLabs.Core/2.0.5782": {
         "type": "package",
         "compile": {
@@ -1215,7 +1274,8 @@
           "XLabs.Platform": "2.0.5782",
           "Xam.FormsPlugin.IconEntry": "1.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.908675"
+          "Xamarin.Forms": "4.3.0.908675",
+          "Xamarin.Forms.Maps": "4.0.0.709238"
         },
         "compile": {
           "bin/placeholder/App8.dll": {}
@@ -1725,6 +1785,39 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Maps/4.0.0.709238": {
+      "sha512": "ER7VhqRCM0pDnoY/HwY8sdFasmU/yj+a0JlrmCZZN2PeYSdndmRUGP5QQFLUIzAP5/68WaLQ7XeRIYaht4aLAA==",
+      "type": "package",
+      "path": "xamarin.forms.maps/4.0.0.709238",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid81/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Maps.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.4.0.0.709238.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
     "XLabs.Core/2.0.5782": {
       "sha512": "XLRztFIAjUYfjaaur4aPa/gjBNOwnAoelnmm83v4U0R5dJcWhll5Sci3s8nJWpHv1unwX1TuRsWT0rqMNm0PzA==",
       "type": "package",
@@ -1857,7 +1950,8 @@
       "XLabs.Platform >= 2.0.5782",
       "Xam.FormsPlugin.IconEntry >= 1.1.1",
       "Xamarin.Essentials >= 1.3.1",
-      "Xamarin.Forms >= 4.3.0.908675"
+      "Xamarin.Forms >= 4.3.0.908675",
+      "Xamarin.Forms.Maps >= 4.0.0.709238"
     ]
   },
   "packageFolders": {
@@ -1929,6 +2023,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.3.0.908675, )"
+          },
+          "Xamarin.Forms.Maps": {
+            "target": "Package",
+            "version": "[4.0.0.709238, )"
           }
         }
       }

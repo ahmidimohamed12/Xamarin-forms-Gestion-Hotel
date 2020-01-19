@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundColor="Black"
+             BackgroundColor="White"
              x:Class="App8.Hotels">
     <ContentPage.Content>
         <StackLayout >
@@ -20,29 +20,40 @@
                 />
             </StackLayout>
             <ScrollView>
-                <ListView WidthRequest="300"  HasUnevenRows="True" x:Name="ls"
+                <ListView  HasUnevenRows="True" x:Name="ls"
                           BackgroundColor="White"
-                          > 
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout HeightRequest="80" Orientation="Horizontal">
-                                    <Image
+                          >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Vertical">
+                                    <StackLayout  HeightRequest="80" Orientation="Horizontal">
+                                        <Image
                                         Source="{Binding im}"
                                         HorizontalOptions="StartAndExpand"
                                     />
-                                    <Label
+                                        <Label
                                         Text="{Binding Namevile}"
                                         TextColor="Black"
                                         FontAttributes="Bold"
                                         HorizontalOptions="CenterAndExpand"
                                     />
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-
+                                        <StackLayout Orientation="Vertical">
+                                            <Label
+                                                TextColor="Black"
+                                                HorizontalOptions="CenterAndExpand"
+                                                />
+                                            <Label
+                                                TextColor="Black"
+                                                />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                              
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
             </ScrollView>
         </StackLayout>
     </ContentPage.Content>
