@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using App8.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Forms.Maps;
 
 namespace App8
 {
@@ -72,6 +73,7 @@ namespace App8
         public Hotels()
         {
             InitializeComponent();
+
             ls.ItemsSource = pay1;
             src.TextChanged += (sender, e) =>
             {

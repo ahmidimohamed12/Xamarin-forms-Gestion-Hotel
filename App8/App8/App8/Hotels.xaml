@@ -27,7 +27,7 @@
                         <DataTemplate>
                             <ViewCell>
                                 <StackLayout Orientation="Vertical">
-                                    <StackLayout  HeightRequest="80" Orientation="Horizontal">
+                                    <StackLayout  HeightRequest="60" Orientation="Horizontal">
                                         <Image
                                         Source="{Binding im}"
                                         HorizontalOptions="StartAndExpand"
